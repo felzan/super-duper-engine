@@ -11,9 +11,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@Builder
 @NoArgsConstructor
-@AllArgsConstructor
 public class CoffeeBean {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
